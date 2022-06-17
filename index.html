@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Manager</title>
+    <link rel="stylesheet" href="style1.css">
+  
+</head>
+
+<body>
+    <nav>
+        <ul class="main-nav">
+            <li class="push logo"><a href="homepage.html">Expense Manager</a></li>
+            <li><a href=""><img src="contact.png" alt="contact us"></a></li>
+            <li ><a href=""><img src="user.png" alt="profile section"></a></li>
+        </ul>
+
+    </nav>
+
+    <div class="dashboard">
+        Dashboard section
+    </div>
+    
+    <div id="options">
+        <footer onclick="show()">Options</footer>
+
+        <div id="option-tab">
+            <button id="slider" onclick="show()">Close</button>
+
+            <div class="menu">
+                <div class="left_pan">
+                    <button type="button" id="myExpense">My Expense</button>
+                    <button type="button" id="groupExpense">Group Expense</button>
+                    <button type="button" id="cur_convert" onclick="conv()">Currency Convertor</button>
+                   
+                        
+                </div>
+                <div class="right_pan"> 
+                    <button type="button" id="transaction">Add Transaction</button>
+                    <button type="button" id="t_history">Transaction History</button>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="logic.js"></script>
+   
+
+</body>
+</html>
